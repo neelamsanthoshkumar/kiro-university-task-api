@@ -332,12 +332,14 @@ npm run db:setup
 
 ## 🎥 Demo Video
 
-[Link to demo video - 30 seconds to 3 minutes]
+[![Kiro University Challenge Demo](https://img.youtube.com/vi/jelt1hh6fcw/maxresdefault.jpg)](https://youtu.be/jelt1hh6fcw)
+
+**Watch the 2-minute demo:** https://youtu.be/jelt1hh6fcw
 
 Shows:
-- Working API (Postman requests)
+- Working API with live demo
 - All 7 lessons demonstrated
-- Bonus lessons (if applicable)
+- Production architecture overview
 
 ## 📜 License
 
