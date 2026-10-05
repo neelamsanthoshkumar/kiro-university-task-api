@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Review Code File Writes",
+      "trigger": "PreToolUse",
+      "description": "Review code file write operations for compliance with project standards. Excludes documentation, config, and test files.",
+      "matcher": "fs_write|str_replace",
+      "action": {
+        "type": "agent",
+        "prompt": "Review this file write operation. ONLY review if the file path matches src/**/*.js (actual source code). SKIP and allow without review if the file is: documentation (*.md, docs/**), configuration (*.json, *.config.js, .env*, .kiro/**), or tests (tests/**, *.test.js). For source code files, verify they follow our API standards, error handling, security standards, and code style guidelines."
+      }
+    }
+  ]
+}

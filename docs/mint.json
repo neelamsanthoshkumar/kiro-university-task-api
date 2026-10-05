@@ -1,0 +1,92 @@
+{
+  "name": "Task Management API",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@example.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "GitHub",
+    "url": "https://github.com/your-username/task-management-api"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/your-username/task-management-api"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "authentication"
+      ]
+    },
+    {
+      "group": "Core Concepts",
+      "pages": [
+        "concepts/tasks",
+        "concepts/users",
+        "concepts/notifications"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/overview",
+        "api-reference/errors"
+      ]
+    },
+    {
+      "group": "Authentication",
+      "pages": [
+        "api-reference/auth/register",
+        "api-reference/auth/login"
+      ]
+    },
+    {
+      "group": "Tasks",
+      "pages": [
+        "api-reference/tasks/create",
+        "api-reference/tasks/list",
+        "api-reference/tasks/get",
+        "api-reference/tasks/update",
+        "api-reference/tasks/delete"
+      ]
+    },
+    {
+      "group": "Notifications",
+      "pages": [
+        "api-reference/notifications/list",
+        "api-reference/notifications/mark-read"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/your-username/task-management-api"
+  }
+}
